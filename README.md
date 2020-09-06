@@ -1,4 +1,4 @@
-# template-ts
+# audio sample extractor
 
 ## Build Setup
 
