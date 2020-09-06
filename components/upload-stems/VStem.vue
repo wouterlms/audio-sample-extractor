@@ -1,9 +1,7 @@
 <template>
 	<li class="stem">
 		<div>
-			<v-svg v-if="isMp3" icon="mp3"></v-svg>
-			<v-svg v-if="isWav" icon="wav"></v-svg>
-			<v-svg v-if="isFlac" icon="flac"></v-svg>
+			<v-svg :icon="extension"></v-svg>
 
 			<span>{{ stem.name }}</span>
 			<v-button v-if="samples" @click="setSelectedStem()">{{ samples.length}} samples</v-button>
@@ -31,20 +29,8 @@
 			this.$store.commit('REMOVE_EXPORT_SAMPLES_BY_NAME', this.stem.name);
 		}
 
-		getExtension(file: File): string {
-			return file.name.toString().split('.').pop() || '';
-		}
-
-		get isMp3(): boolean {
-			return this.getExtension(this.stem) === 'mp3';
-		}
-
-		get isWav(): boolean {
-			return this.getExtension(this.stem) === 'wav';
-		}
-
-		get isFlac(): boolean {
-			return this.getExtension(this.stem) === 'flac';
+		get extension(): string {
+			return this.stem.name.toString().split('.').pop() || '';
 		}
 
 		get samples(): Sample[] {
