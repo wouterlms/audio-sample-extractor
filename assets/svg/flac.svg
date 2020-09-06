@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="464" viewBox="0 0 368 464">
+  <g id="files-and-folders" transform="translate(-72 -24)">
+    <path id="Path_1" data-name="Path 1" d="M392,488H120a48,48,0,0,1-48-48V72a48,48,0,0,1,48-48H344l96,96V440A48,48,0,0,1,392,488Z" fill="#cfd2fc"/>
+    <path id="Path_2" data-name="Path 2" d="M72,360H440v80a48,48,0,0,1-48,48H120a48,48,0,0,1-48-48Z" fill="#5153ff"/>
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_3" data-name="Path 3" d="M440,120H392a48,48,0,0,1-48-48V24Z" fill="#8690fa"/>
+      <path id="Path_4" data-name="Path 4" d="M192,304a8,8,0,0,1-8-8V152a8,8,0,0,1,16,0V296A8,8,0,0,1,192,304Z" fill="#8690fa"/>
+      <path id="Path_5" data-name="Path 5" d="M256,256a8,8,0,0,1-8-8V200a8,8,0,0,1,16,0v48A8,8,0,0,1,256,256Z" fill="#8690fa"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" d="M160,272a8,8,0,0,1-8-8V184a8,8,0,0,1,16,0v80A8,8,0,0,1,160,272Z" fill="#5153ff"/>
+    <path id="Path_7" data-name="Path 7" d="M224,272a8,8,0,0,1-8-8V184a8,8,0,0,1,16,0v80A8,8,0,0,1,224,272Z" fill="#5153ff"/>
+    <path id="Path_8" data-name="Path 8" d="M320,304a8,8,0,0,1-8-8V152a8,8,0,0,1,16,0V296A8,8,0,0,1,320,304Z" fill="#8690fa"/>
+    <path id="Path_9" data-name="Path 9" d="M352,272a8,8,0,0,1-8-8V184a8,8,0,0,1,16,0v80A8,8,0,0,1,352,272Z" fill="#5153ff"/>
+    <path id="Path_10" data-name="Path 10" d="M288,272a8,8,0,0,1-8-8V184a8,8,0,0,1,16,0v80A8,8,0,0,1,288,272Z" fill="#5153ff"/>
+    <path id="Path_11" data-name="Path 11" d="M128,240a8,8,0,0,1-8-8V216a8,8,0,0,1,16,0v16A8,8,0,0,1,128,240Z" fill="#8690fa"/>
+    <path id="Path_12" data-name="Path 12" d="M384,240a8,8,0,0,1-8-8V216a8,8,0,0,1,16,0v16A8,8,0,0,1,384,240Z" fill="#8690fa"/>
+    <text id="FLAC" transform="translate(156 452)" fill="#fff" font-size="80" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">FLAC</tspan></text>
+  </g>
+</svg>
